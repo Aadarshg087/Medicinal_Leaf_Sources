@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".LoginPage">
+
+    <!--  Sign in Text -->
+
+    <!-- UserName -->
+
+    <!-- Password -->
+
+    <!-- Login -->
+
+    <!-- Forgot Password -->
+    <!--    <TextView-->
+    <!--        android:id="@+id/forgot"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="28dp"-->
+    <!--        android:text="Forgot password ?"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="15dp"-->
+    <!--&lt;!&ndash;        app:layout_constraintTop_toBottomOf="@+id/login"&ndash;&gt;-->
+    <!--&lt;!&ndash;        tools:layout_editor_absoluteX="0dp" />&ndash;&gt;<![CDATA[-->
+
+    <!--     />-->
+
+
+    <!--    ]]>-->
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="160dp"
+        android:text="Green Up!"
+        android:textAlignment="center"
+        android:textColor="#344E41"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toEndOf="@+id/sign"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="56dp"
+        android:background="#a3b18a"
+        android:hint="Email"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#a3b18a"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:backgroundTint="#a3b18a"
+        android:text="Enter the Leafway >>"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/username" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#a3b18a"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintVertical_bias="0.369" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/google"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="92dp"-->
+    <!--        android:text="Sign in with Google"-->
+    <!--        android:backgroundTint="#41BB54"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.535"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/login" />-->
+
+
+    <!-- or sign with -->
+
+    <!-- Images -->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/otherlogin"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="104dp"-->
+    <!--        android:text="or signup with"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="22dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/socialicons"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/forgot"-->
+    <!--        tools:layout_editor_absoluteX="0dp" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/socialicons"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/google"-->
+    <!--            android:layout_width="48dp"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:src="@drawable/google" />-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/facebook"-->
+    <!--            android:layout_width="48dp"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:src="@drawable/fb" />-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/twitter"-->
+    <!--            android:layout_width="48dp"-->
+    <!--            android:layout_height="48dp"-->
+    <!--            android:layout_margin="20dp"-->
+    <!--            android:src="@drawable/twitter" />-->
+    <!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
