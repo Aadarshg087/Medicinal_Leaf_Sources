@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551601788586",
+    "project_id": "leaf-detection-a8001",
+    "storage_bucket": "leaf-detection-a8001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551601788586:android:0aa6da0cd3febbd70a62d3",
+        "android_client_info": {
+          "package_name": "com.example.leafdetectionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCPEZtff7KnK7ClwFx12EOw_fPEHmxzqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
